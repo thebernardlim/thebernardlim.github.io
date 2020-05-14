@@ -2,8 +2,9 @@
 layout: post
 title:  Azure Data Factory - Removing Triggers without Errors
 date:   2020-02-24 00:01:12 +0530
-description: Removing triggers from ADF pipelines without errors
+subtitle: Removing triggers from ADF pipelines without errors
 header-img: "img/headers/adf.png"
+header-mask: 0.2
 tags: 
 - Azure Data Factory
 --- 

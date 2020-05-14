@@ -2,8 +2,9 @@
 layout: post
 title:  Azure Data Factory - How to connect to Azure File Storage?
 date:   2020-03-08 00:01:12 +0530
-description: Steps to show how to connect to Azure File Storage / Share in Azure Data Factory
+subtitle: Steps to show how to connect to Azure File Storage / Share in Azure Data Factory
 header-img: "img/headers/adf.png"
+header-mask: 0.2
 tags: 
 - Azure Data Factory
 ---

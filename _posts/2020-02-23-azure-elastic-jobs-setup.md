@@ -3,8 +3,9 @@ layout: post
 title:  Azure Elastic Jobs - Setup Guide
 date:   2020-02-23 00:00:00 +0000
 tags: [Azure SQL]
-description: Guide on setting up / creating Azure Elastic Jobs
+subtitle: Guide on setting up / creating Azure Elastic Jobs
 header-img: "img/headers/elasticjobagents.png"
+header-mask: 0.2
 tags:
 - Azure SQL
 ---
