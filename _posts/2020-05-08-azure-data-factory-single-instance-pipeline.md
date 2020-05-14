@@ -4,7 +4,7 @@ title:  Azure Data Factory - Run single instance of pipeline at a time
 date:   2020-05-08 00:01:12 +0530
 subtitle: "Article showing how to run only a single instance of a pipeline at a time"
 header-img: "img/headers/adf.png"
-header-mask: 0.8
+header-mask: 0.5
 tags: 
 - Azure Data Factory
 ---
