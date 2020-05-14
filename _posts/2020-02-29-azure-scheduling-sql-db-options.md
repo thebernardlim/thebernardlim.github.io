@@ -3,7 +3,7 @@ layout: post
 title:  Azure Job Scheduling Options for Azure SQL DB
 date:   2020-02-29 00:01:12 +0530
 description: Article showing/comparing a list of Azure services we can use for scheduling jobs required for Azure SQL database
-header-img: "/img/schedule.jpg"
+header-img: "img/headers/schedule.jpg"
 tags:
 - Azure SQL
 - Azure Functions

@@ -4,7 +4,7 @@ title:  Azure IOT Hubs vs Event Hubs - What are the differences?
 date:   2020-01-13 00:01:12 +0530
 description: Quick summary on the differences between IoT Hubs vs Event Hubs
 header-style: text
-header-img: "/img/iot-vs-event-hubs.png"
+header-img: "img/headers/iot-vs-event-hubs.png"
 tags: 
 - Azure IoT Hubs
 - Azure Event Hubs
