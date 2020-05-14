@@ -3,7 +3,7 @@ layout: post
 title:  Azure Data Engineer Associate Certification Study Notes
 date:   2020-01-29 00:00:12 +0530
 description: Azure Data Engineer Associate certification study notes 
-img: certification.jpg
+header-img: certification.jpg
 tags: 
 - Certification
 ---

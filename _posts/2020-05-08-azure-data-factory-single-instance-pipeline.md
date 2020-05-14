@@ -3,7 +3,7 @@ layout: post
 title:  Azure Data Factory - Run single instance of pipeline at a time
 date:   2020-05-08 00:01:12 +0530
 description: Article showing how to run only a single instance of a pipeline at a time.
-img: adf.png
+header-img: adf.png
 tags: 
 - Azure Data Factory
 ---
@@ -12,7 +12,7 @@ I recently faced this scenario where I noticed there were multiple instances of 
 
 I googled around trying to find a proper solution for this and the best I could find was to set the **'Concurrency' value of the pipeline to '1'**. This ensured that only 1 instance of the pipeline will run at a time.
 
-![Concurrency Setting](/assets/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/concurrency-setting.png)
+![Concurrency Setting](/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/concurrency-setting.png)
 
 ## Problem
 
@@ -45,18 +45,18 @@ Let's test this out!
 1. In order to test this, you can install the following [script](https://github.com/thebernardlim/azure/tree/master/function-apps/adf-utility/ADF-Utility){:target="_blank"} in Postman.
 2. Once installed, there will be a list of requests as per the screenshot below.
 
-    ![Postman Script Overview](/assets/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-script-overview.PNG)
+    ![Postman Script Overview](/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-script-overview.PNG)
 
 3. As we will be triggering the [ADF Pipeline 'createrun' API](https://docs.microsoft.com/en-us/rest/api/datafactory/pipelines/createrun){:target="_blank"}{:target="_blank"} which requires an access token, we will need to make first make a call to Microsoft Identity Platform to get the access token. Before this, you will need to [create an App Registration within Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){:target="_blank"}
 
-    ![Pipeline Security](/assets/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/adf-pipeline-security.PNG)
+    ![Pipeline Security](/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/adf-pipeline-security.PNG)
 
     Update the global variables of the script with your respective values.
 
-    ![Postman Variables](/assets/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-variables.PNG)
+    ![Postman Variables](/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-variables.PNG)
 
 4. Once the variables are set, send a  **'Get AAD Token'**  request. This will set an **access token** to a global variable which will be used in our next API call.
 
 5. Send a **'Run Single Instance ADF Pipeline'** request. If the 'Status' returns as 'Pipeline run successfully created' then your pipeline is now running!
 
-    ![Pipeline Run Created](/assets/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-successful-response.PNG)
+    ![Pipeline Run Created](/img/posts/2020-05-08-azure-data-factory-single-instance-pipeline/postman-successful-response.PNG)

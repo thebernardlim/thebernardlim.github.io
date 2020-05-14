@@ -3,7 +3,7 @@ layout: post
 title:  Azure Job Scheduling Options for Azure SQL DB
 date:   2020-02-29 00:01:12 +0530
 description: Article showing/comparing a list of Azure services we can use for scheduling jobs required for Azure SQL database
-img: schedule.jpg
+header-img: schedule.jpg
 tags:
 - Azure SQL
 - Azure Functions
@@ -22,7 +22,7 @@ Below is a list of the Azure services that can perform scheduled jobs on Azure S
 
 ### Option #1: Elastic Jobs
 
-![Elastic Job Logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/elasticjobagents-logo.png)
+![Elastic Job Logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/elasticjobagents-logo.png)
 
 
 Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank"} for my detailed writeup on how to setup Azure Elastic Jobs.
@@ -37,7 +37,7 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 - **Not as easily maintainable** as custom coding required, when compared to visual designers.
 - Still in **Preview Mode** at time of writing.
 - **Monitoring not as detailed in Azure Portal.** It only shows if a job succeeds/fails, however, does not describe what the job does / what is failing. Will require T-SQL statements for detailed description of job execution.  
-![Latest 100 job executions](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/elastic-jobs-1.png)
+![Latest 100 job executions](/img/posts/2020-02-29-azure-scheduling-sql-db-options/elastic-jobs-1.png)
 *Screenshot showing the 'Overview' tab of Elastic Job Agent*
 
 #### Other Notes
@@ -48,7 +48,7 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 ### Option #2: WebJobs
 
-![WebJobs logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-logo.png)
+![WebJobs logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-logo.png)
 
 #### Pros
 
@@ -59,14 +59,14 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 - **Expensive option** as it requires AppService plan to be *Standard* or *Premium* because of **Always On** feature requirement.
 - **Not as easily maintainable** as custom coding required, when compared to visual designers.
 - **Monitoring requires custom coding (to output log lines)** to be more useful for diagnosis in the event of failures.  
-![List of web jobs that ran](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-1.png)*In the Kudu dashboard, you can see a list of job runs executed along with its status*  
-![WebJob run details](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-2.png)*On click of any job, you can see the console logs generated when running the job*
+![List of web jobs that ran](/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-1.png)*In the Kudu dashboard, you can see a list of job runs executed along with its status*  
+![WebJob run details](/img/posts/2020-02-29-azure-scheduling-sql-db-options/webjobs-2.png)*On click of any job, you can see the console logs generated when running the job*
 
 ---
 
 ### Option #3: Functions
 
-![Function Apps logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-logo.png)
+![Function Apps logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-logo.png)
 
 
 #### Pros
@@ -78,8 +78,8 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 - **Not as easily maintainable** as custom coding required, when compared to visual designers.
 - **Monitoring requires custom coding (to output log lines)** to be more useful for diagnosis in the event of failures.  
-![Recent Jobs window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-1.png) *List of recent function runs under 'Monitor' tab*  
-![Recent Jobs window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-2.png) *Here you can view the invocation details of the specific job run entry*
+![Recent Jobs window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-1.png) *List of recent function runs under 'Monitor' tab*  
+![Recent Jobs window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/function-apps-2.png) *Here you can view the invocation details of the specific job run entry*
 
 #### Other Notes
 
@@ -89,7 +89,7 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 ### Option #4: Automation Accounts
 
-![Automation Accounts logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/automation-accounts-logo.png)
+![Automation Accounts logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/automation-accounts-logo.png)
 
 #### Pros
 
@@ -99,8 +99,8 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 - **Not as easily maintainable** as custom coding required, when compared to visual designers. Note: There is a *Graphical Runbook* option available, however will require knowledge such as the correct Powershell CMDlets to use.
 - **Monitoring requires custom coding (to output log lines)** to be more useful for diagnosis in the event of failures.  
-![Recent Jobs window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/auto-1.png) *Under the 'Jobs' tab, it will show you a list of recent runbook runs*  
-![Job Detail window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/auto-2.png) *On click of any runbook run, you can get more details*
+![Recent Jobs window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/auto-1.png) *Under the 'Jobs' tab, it will show you a list of recent runbook runs*  
+![Job Detail window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/auto-2.png) *On click of any runbook run, you can get more details*
 
 #### Other Notes
 
@@ -110,15 +110,15 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 ### Option #5: Logic Apps
 
-![Logic App Logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-apps-logo.png)
+![Logic App Logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-apps-logo.png)
 
 #### Pros
 
 - **Visual design** of job. Does not require coding. Can code if required.
 - **Easily maintainable** because of visual designing ability.
 - **Easy to debug & monitor**. Each step in a run, can be clicked on to see details on what went wrong, which is very useful. No custom logging required to be specifically made.  
-![Logic App Runs History](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-app-2.PNG) *On the Overview page, there is a list of Runs history window showing results of recent runs*  
-![Logic App Run Window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-app-1.png) *On click of each run entry, here you can visually view which part of the run failed. On click of any action, you can view further details*
+![Logic App Runs History](/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-app-2.PNG) *On the Overview page, there is a list of Runs history window showing results of recent runs*  
+![Logic App Run Window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/logic-app-1.png) *On click of each run entry, here you can visually view which part of the run failed. On click of any action, you can view further details*
 
 #### Cons
 
@@ -128,7 +128,7 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 
 ### Option #6: Data Factory
 
-![Data Factory Logo](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/adf-logo.png)
+![Data Factory Logo](/img/posts/2020-02-29-azure-scheduling-sql-db-options/adf-logo.png)
 
 #### Pros
 
@@ -136,8 +136,8 @@ Click [here](http://thebernardlim.com/azure-elastic-jobs-setup/){:target="_blank
 - **Easily maintainable** because of visual designing ability.
 - **Long timeout execution duration** of 7 days per pipeline activity.
 - **Easy to debug & monitor**. Each activity in a pipeline run, can be clicked on to see details on what went wrong, which is very useful. No custom logging required to be specifically made.  
-![Monitor Window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/df-1.png) *In the ADF UI, there is a 'Pipeline runs' and 'Trigger runs' windows which shows a list of recent runs.*  
-![Pipeline Run Detail Window](/assets/img/posts/2020-02-29-azure-scheduling-sql-db-options/df-2.png) *On click of any run entry, you can visually view the pipeline to see each activity in detail*
+![Monitor Window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/df-1.png) *In the ADF UI, there is a 'Pipeline runs' and 'Trigger runs' windows which shows a list of recent runs.*  
+![Pipeline Run Detail Window](/img/posts/2020-02-29-azure-scheduling-sql-db-options/df-2.png) *On click of any run entry, you can visually view the pipeline to see each activity in detail*
 
 
 #### Cons
