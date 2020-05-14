@@ -3,7 +3,7 @@ layout: post
 title:  Azure Streaming Analytics - Export / Import Streaming Analytics Jobs
 date:   2020-01-29 00:01:12 +0530
 description: Export / Import Streaming Analytics using Visual Studio Code
-header-img: /img/headers/streaminganalytics.png
+header-img: "/img/headers/streaminganalytics.png"
 tags: 
 - Azure Streaming Analytics
 ---
