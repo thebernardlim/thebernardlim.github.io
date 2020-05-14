@@ -1,8 +1,8 @@
 # Site settings
 title: thebernardlim
 SEOTitle: Bernard Lim | Azure
+header-img: img/home-bg.jpg
 keyword: "Bernard Lim, Azure, Hong Kong, Cloud, Data"
-header-img: "img/home-bg.jpg"
 url: "http://thebernardlim.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
