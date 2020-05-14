@@ -3,7 +3,7 @@ layout: post
 title:  Azure Data Engineer Associate (DP-200, DP-201) Certification Study Guide
 date:   2020-02-04 00:00:12 +0530
 description: Sharing my experience to getting certified for the Azure Data Engineer Associate certification
-header-img: certification.jpg
+header-img: /img/headers/certification.jpg
 tags:
 - Certification
 ---

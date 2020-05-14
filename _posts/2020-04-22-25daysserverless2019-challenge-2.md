@@ -3,7 +3,7 @@ layout: post
 title:  25 days of Serverless - Challenge 2
 date:   2020-04-22 00:01:12 +0530
 description: Solution to 25 days of Serverless - Challenge 2
-header-img: 25daysserverless.PNG
+header-img: /img/headers/25daysserverless.PNG
 tags: 
 - Azure Logic Apps
 - 25 Days of Serverless
