@@ -18,25 +18,30 @@ As per the instructions, we will be required to use **Azure Functions** and **Gi
 
 Here are the steps:
 
-1. Create GitHub Webhook. This can be accessed through the 'Settings' tab of your Repo. Choose the 'Pushes' event as your trigger. If you do not have a URL at this point, you can get a [temporary webhook URL](https://webhook.site/){:target="_blank"}
+1. Create a **GitHub Webhook**. This can be accessed through the **'Settings' tab of your Repo**. Choose the **'Pushes' event as your trigger**. If you do not have a URL at this point, you can get a [temporary webhook URL](https://webhook.site/){:target="_blank"}
     !['Webhooks' tab under Settings](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-add.PNG)
 
-    !['Webhooks' tab under Settings](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-add-2.PNG)
+    Webhook triggers:
+    !['Webhooks' Triggers](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-add-2.PNG)
 
-2. Do a test push to test out the webhook. In the 'Recent Deliveries' section we can see the request payload which we shall view to identify what fields we will need to parse.
-    !['Webhooks' tab under Settings](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-recent-deliveries.PNG)
+2. Do a test push to test out the webhook. In the **'Recent Deliveries' section** we can see the request payload which we shall view to identify what fields we will need to parse.
+   
+    Here is a list of recent deliveries, i.e. Webhook triggers
+    ![Recent Deliveries](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-recent-deliveries.PNG)
 
+    On click of any of the option, we can see the sample payload sent
     ![Payload sample](/img/posts/2020-06-08-25daysserverless2019-challenge-3/payload-sample.PNG)
 
-3. Create Azure Function to parse payload. This is pretty straightforward as it was just a matter of parsing the request payload and then inserting into the database. I went with the Azure SQL route for simplicity. Code for the Azure Function can be found [here](https://github.com/thebernardlim/25-days-of-serverless/blob/master/challenge-3/PushWebHookFunction.cs){:target="_blank"}
+3. Create **Azure Function** to parse payload. This is pretty straightforward as it was just a matter of parsing the request payload, filtering if the pushes contained a 'png' file, and then inserting into the database. I went with the Azure SQL route for simplicity. Code for the Azure Function can be found [here](https://github.com/thebernardlim/25-days-of-serverless/blob/master/challenge-3/PushWebHookFunction.cs){:target="_blank"}
 
-4. In terms of authentication between Azure Function and Azure SQL, I decided to enable Managed Identity for Azure Function.
-5. 
+4. In terms of authentication between Azure Function and Azure SQL, I decided to **enable Managed Identity for Azure Function**.
+
     ![Managed Identity](/img/posts/2020-06-08-25daysserverless2019-challenge-3/PushWebHook-managed-identity.PNG)
 
-Once that is done, create a contained DB user to represent the Azure Function. Assign the respective rights to allow insertions into the SQL DB.
+    Once that is done, create a **contained DB user** in Azure SQL DB which will represent the Azure Function. Assign the respective rights to allow insertions into the SQL DB.
 
     ![Create Contained DB User](/img/posts/2020-06-08-25daysserverless2019-challenge-3/create-contained-db-user.PNG)
 
 5. The integration should be ready at this point and once you push a 'png' image into your branch, the Image URLs should be now inside your database.
-![Image](/img/posts/2020-06-08-25daysserverless2019-challenge-3/results-db.PNG)
+
+    ![Image](/img/posts/2020-06-08-25daysserverless2019-challenge-3/results-db.PNG)
