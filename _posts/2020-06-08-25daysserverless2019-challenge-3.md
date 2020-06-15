@@ -30,7 +30,7 @@ Here are the steps:
     ![Recent Deliveries](/img/posts/2020-06-08-25daysserverless2019-challenge-3/webhook-recent-deliveries.PNG)
 
     On click of any of the option, we can see the sample payload sent
-    ![Payload sample](/img/posts/2020-06-08-25daysserverless2019-challenge-3/payload-sample.PNG)
+    ![Payload sample](/img/posts/2020-06-08-25daysserverless2019-challenge-3/payload-sample.png)
 
 3. Create **Azure Function** to parse payload. This is pretty straightforward as it was just a matter of parsing the request payload, filtering if the pushes contained a 'png' file, and then inserting into the database. I went with the Azure SQL route for simplicity. Code for the Azure Function can be found [here](https://github.com/thebernardlim/25-days-of-serverless/blob/master/challenge-3/PushWebHookFunction.cs){:target="_blank"}
 
