@@ -11,3 +11,4 @@ node_modules
 .jekyll-cache
 */.DS_Store
 */*/.DS_Store
+/_posts/2020-07-27-azure-firewall-vs-nsg.md

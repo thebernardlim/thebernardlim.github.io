@@ -12,8 +12,6 @@ tags:
 
 ## Alibaba Cloud ACA Cloud Computing Associate Study Guide
 
-### Introduction
-
 In my opinion, the ACA Cloud Computing Associate certification will be the one of the best ways to get an **introduction into Alibaba Cloud**. It gives you an overall view of the most-used services within Alibaba Cloud and touches on basic cloud computing concepts. It should be the **first certificate** to attempt before proceeding to other certificates.
 
 Alibaba Cloud Certificate comes in a number of flavours, namely:
@@ -26,20 +24,20 @@ This certificate is one of the 3 **Associate certifications** currently on offer
 
 ### Pre-Requisites
 
-There is no official pre-requisites required to take this certification. However, a background / experience in other cloud providers will really help speed up the learning process. In my case, I have already have some Azure / AWS experience before this, hence really expedited my preparations.
+There is no official pre-requisites required to take this certification. However, a background / experience in other cloud providers will really help speed up the learning process. In my case, I already have some Azure / AWS experience before this, hence really expedited my preparations.
 
 ### Step 1 - Exam / Certification Outline
 
 As with any exams / certifications, we start off by looking at the syllabus.
 
-Here is the main link to the syllabus:
+Here is the main link to the syllabus:\
 [Syllabus Link](https://edu.alibabacloud.com/certification/aca_cloudcomputing?spm=a3c0i.11597324.1621765730.1.17594755Ni1sk2)
 
 Alternatively, in case the above URL changes, you can always go to the syllabus through their [Cloud Associate Certification](https://edu.alibabacloud.com/certification/aca_cloudcomputing) site. Click on the link on the right side of the page to access the syllabus
 ![syllabus link](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-2.png)
 
 At the time of writing (August 2020), this is the syllabus:
-![syllabus](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-1.png)
+![syllabus](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-1.PNG)
 
 As you can see, each component has a different content weightage. This can be used as a guidance on where we should focus more of our efforts on.
 
@@ -60,6 +58,8 @@ Alibaba Cloud provides detailed documentation for all of their services. The off
 [Aibaba Cloud Documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_)
 
 For each service, I reckon reading the 'Quick Start' section (marked in red) will be sufficient for the exam. However, it will be best to read up the 'Product Information' (marked in green) for each for further understanding. As this is an Associate-level certification, it does not go into really detailed stuff, however, it will only be for our own good to be well-prepared and actually know a product which is the main reason why we are studying anyways.
+
+![syllabus](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-3.png)
 
 Below are the direct links to each of the services covered:
 
