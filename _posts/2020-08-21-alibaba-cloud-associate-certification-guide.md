@@ -10,7 +10,7 @@ tags:
 - Certification
 ---
 
-## Alibaba Cloud ACA Cloud Computing Associate Study Guide
+# Alibaba Cloud ACA Cloud Computing Associate Study Guide
 
 ![badge](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-5.PNG)
 
