@@ -57,7 +57,7 @@ The video course takes you through all the topics to be covered in the exam. The
 #### Documentation
 
 Alibaba Cloud provides detailed documentation for all of their services. The official documentation home page can be found here: \
-[Aibaba Cloud Documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_){:target="_blank"}
+[Alibaba Cloud Documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_){:target="_blank"}
 
 For each service, I reckon reading the 'Quick Start' section (marked in red) will be sufficient for the exam. However, it will be best to read up the 'Product Information' (marked in green) for each for further understanding. As this is an Associate-level certification, it does not go into really detailed stuff, however, it will only be for our own good to be well-prepared and actually know a product which is the main reason why we are studying anyways.
 
@@ -100,7 +100,7 @@ Currently at time of writing, I took the online version of the exam, which can b
 As it is a closed-book exam, there will be proctoring, where an examiner will be monitoring through Zoom which will be required to install on a separate device that will be monitoring your exam.
 Hence, you will need to prepare 1 device with a web cam (For online proctoring) and 1 laptop (For your exam).
 
-Exam comprises of **50 questions** and must be completed within **90 minutes**. Passing score is **60%**. \
+Exam comprises of **50 questions** and must be completed within **90 minutes**. Passing score is **60%**.
 
 Results and certificate will be generated right after you click 'Submit' if you do pass.
 
