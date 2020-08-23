@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Alibaba Cloud Associate Certification Study Guide
+title:  Alibaba Cloud Associate ACA Cloud Computing Certification Study Guide
 date:   2020-08-22 00:16:12 +0530
-subtitle: Alibaba Cloud Associate Certification Study Guide
+subtitle: Alibaba Cloud Associate ACA Cloud Computing Certification Study Guide
 header-img: "img/headers/certification-aca-cloud-computing.jpg"
 header-mask: 0.5
 tags: 
@@ -10,13 +10,13 @@ tags:
 - Certification
 ---
 
-# Alibaba Cloud ACA Cloud Computing Associate Study Guide
+# Alibaba Cloud Associate ACA Cloud Computing Study Guide
 
 ![badge](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-5.PNG)
 
-In my opinion, the ACA Cloud Computing Associate certification will be the one of the best ways to get an **introduction into Alibaba Cloud**. It gives you an overall view of the most-used services within Alibaba Cloud and touches on basic cloud computing concepts. It should be the **first certificate** to attempt before proceeding to other certificates.
+In my opinion, the ACA Cloud Computing certification will be the one of the best ways to get an **introduction into Alibaba Cloud**. It gives you an overall view of the most-used services within Alibaba Cloud and touches on basic cloud computing concepts. It should be the **first certificate** to attempt before proceeding to other certificates.
 
-Alibaba Cloud Certificate comes in a number of flavours, namely:
+Alibaba Cloud certificates comes in a number of flavours, namely:
 
 - Associate
 - Professional
