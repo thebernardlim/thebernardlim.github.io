@@ -90,7 +90,7 @@ Alibaba currently also offers [free trial](https://www.alibabacloud.com/campaign
 
 For questions and help from the community, I reckon the (official forum)[(https://www.alibabacloud.com/forum) will be the best way as it is comparatively more active than the usual places like Stack Overflow.
 
-Also, I find the **search feature** within the documentation site really useful, which should get you the information you require.
+Also, I find the **search feature** within the [documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_) site really useful, which should get you the information you require.
 
 ![search](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-4.PNG)
 
@@ -98,7 +98,7 @@ Also, I find the **search feature** within the documentation site really useful,
 
 Currently at time of writing, I took the online version of the exam, which can be done at the comfort of your home.
 As it is a closed-book exam, there will be proctoring, where an examiner will be monitoring through Zoom which will be required to install on a separate device that will be monitoring your exam.
-Hence, 1 device (For online proctoring) and 1 laptop (For your exam).
+Hence, you will need to prepare 1 device with a web cam (For online proctoring) and 1 laptop (For your exam).
 
 Exam comprises of **50 questions** and must be completed within **90 minutes**. Passing score is **60%**.
 
