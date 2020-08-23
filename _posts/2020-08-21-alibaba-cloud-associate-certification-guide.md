@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Alibaba Cloud Associate ACA Cloud Computing Certification Study Guide
+title:  Alibaba ACA Cloud Computing Certification Study Guide
 date:   2020-08-22 00:16:12 +0530
 subtitle: Alibaba ACA Cloud Computing Certification Study Guide
 header-img: "img/headers/certification-aca-cloud-computing.jpg"
