@@ -33,9 +33,9 @@ There is no official pre-requisites required to take this certification. However
 As with any exams / certifications, we start off by looking at the syllabus.
 
 Here is the main link to the syllabus:\
-[Syllabus Link](https://edu.alibabacloud.com/certification/aca_cloudcomputing?spm=a3c0i.11597324.1621765730.1.17594755Ni1sk2)
+[Syllabus Link](https://edu.alibabacloud.com/certification/aca_cloudcomputing?spm=a3c0i.11597324.1621765730.1.17594755Ni1sk2){:target="_blank"} 
 
-Alternatively, in case the above URL changes, you can always go to the syllabus through their [Cloud Associate Certification](https://edu.alibabacloud.com/certification/aca_cloudcomputing) site. Click on the link on the right side of the page to access the syllabus
+Alternatively, in case the above URL changes, you can always go to the syllabus through their [Cloud Associate Certification](https://edu.alibabacloud.com/certification/aca_cloudcomputing){:target="_blank"}  site. Click on the link on the right side of the page to access the syllabus
 ![syllabus link](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-2.png)
 
 At the time of writing (August 2020), this is the syllabus:
@@ -48,7 +48,7 @@ As you can see, each component has a different content weightage. This can be us
 #### Videos
 
 **Alibaba Cloud Academy** provides official training videos for their certifications. Here is the link to their video course:
-[Alibaba Cloud Associate Video Course](https://edu.alibabacloud.com/certification/clouder_acacloudcomputing)
+[Alibaba Cloud Associate Video Course](https://edu.alibabacloud.com/certification/clouder_acacloudcomputing){:target="_blank"} 
 
 At the time of writing, this is currently offered at a discounted rate of only **USD0.99**! There is basically no reason to not purchase this course, even if you do not want to take up the exam!
 
@@ -57,40 +57,40 @@ The video course takes you through all the topics to be covered in the exam. The
 #### Documentation
 
 Alibaba Cloud provides detailed documentation for all of their services. The official documentation home page can be found here: \
-[Aibaba Cloud Documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_)
+[Aibaba Cloud Documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_){:target="_blank"} 
 
 For each service, I reckon reading the 'Quick Start' section (marked in red) will be sufficient for the exam. However, it will be best to read up the 'Product Information' (marked in green) for each for further understanding. As this is an Associate-level certification, it does not go into really detailed stuff, however, it will only be for our own good to be well-prepared and actually know a product which is the main reason why we are studying anyways.
 
-![docs](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-3.png)
+![docs](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-3.png){:target="_blank"} 
 
 Below are the direct links to each of the services covered:
 
-- [Elastic Compute Service - ECS](https://www.alibabacloud.com/help/product/25365.htm?spm=a2c63.m28257.a1.1.48ff5922dQuSpH)
-- [Server Load Balancer - SLB](https://partners-intl.aliyun.com/help/product/27537.htm?spm=a2c63.m28257.a1.27.13825922r11oJz)
-- [Object Storage Service - OSS](https://partners-intl.aliyun.com/help/product/31815.htm?spm=a2c63.m28257.a1.11.13825922r11oJz)
-- [Relational Database - RDS](https://partners-intl.aliyun.com/help/product/26090.htm?spm=a2c63.m28257.a1.18.13825922r11oJz)
-- [Auto Scaling](https://partners-intl.aliyun.com/help/product/25855.htm?spm=a2c63.m28257.a1.7.13825922r11oJz)
-- [Cloud Monitor](https://partners-intl.aliyun.com/help/product/28572.htm?spm=a2c63.m28257.a1.67.13825922r11oJz)
-- [Security Center](https://partners-intl.aliyun.com/help/product/28498.htm?spm=a2c63.m28257.a1.50.13825922eQclxh)
-- [Anti-DDoS](https://partners-intl.aliyun.com/help/product/28396.htm?spm=a2c63.m28257.a1.47.13825922eQclxh)
+- [Elastic Compute Service - ECS](https://www.alibabacloud.com/help/product/25365.htm?spm=a2c63.m28257.a1.1.48ff5922dQuSpH){:target="_blank"} 
+- [Server Load Balancer - SLB](https://partners-intl.aliyun.com/help/product/27537.htm?spm=a2c63.m28257.a1.27.13825922r11oJz){:target="_blank"} 
+- [Object Storage Service - OSS](https://partners-intl.aliyun.com/help/product/31815.htm?spm=a2c63.m28257.a1.11.13825922r11oJz){:target="_blank"} 
+- [Relational Database - RDS](https://partners-intl.aliyun.com/help/product/26090.htm?spm=a2c63.m28257.a1.18.13825922r11oJz){:target="_blank"} 
+- [Auto Scaling](https://partners-intl.aliyun.com/help/product/25855.htm?spm=a2c63.m28257.a1.7.13825922r11oJz){:target="_blank"} 
+- [Cloud Monitor](https://partners-intl.aliyun.com/help/product/28572.htm?spm=a2c63.m28257.a1.67.13825922r11oJz){:target="_blank"} 
+- [Security Center](https://partners-intl.aliyun.com/help/product/28498.htm?spm=a2c63.m28257.a1.50.13825922eQclxh){:target="_blank"} 
+- [Anti-DDoS](https://partners-intl.aliyun.com/help/product/28396.htm?spm=a2c63.m28257.a1.47.13825922eQclxh){:target="_blank"} 
 
 #### Practice Questions
 
 Unlike other cloud providers, there are no practice questions available for their certifications. Alibaba Cloud Academy does however provide you with a few sample questions to give you a glimpse of the style of questions you might be facing.
 
-[Official Sample Questions](https://files.alicdn.com/tpsservice/dfff1f4b098cd01af4bb8cd25255bb41.pdf?spm=a3c0i.11600316.6470661220.2.6ab921aaC9YNf3&file=dfff1f4b098cd01af4bb8cd25255bb41.pdf)
+[Official Sample Questions](https://files.alicdn.com/tpsservice/dfff1f4b098cd01af4bb8cd25255bb41.pdf?spm=a3c0i.11600316.6470661220.2.6ab921aaC9YNf3&file=dfff1f4b098cd01af4bb8cd25255bb41.pdf){:target="_blank"} 
 
 #### Practice
 
 Along with video tutorials and reading documentation, being able to do hands-on is ultimately what actually matters!
 
-Alibaba currently also offers [free trial](https://www.alibabacloud.com/campaign/free-trial) credits that can be used, if cost is of a concern.
+Alibaba currently also offers [free trial](https://www.alibabacloud.com/campaign/free-trial){:target="_blank"}  credits that can be used, if cost is of a concern.
 
 #### Forums
 
-For questions and help from the community, I reckon the (official forum)[(https://www.alibabacloud.com/forum) will be the best way as it is comparatively more active than the usual places like Stack Overflow.
+For questions and help from the community, I reckon the (official forum)[(https://www.alibabacloud.com/forum){:target="_blank"}  will be the best way as it is comparatively more active than the usual places like Stack Overflow.
 
-Also, I find the **search feature** within the [documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_) site really useful, which should get you the information you require.
+Also, I find the **search feature** within the [documentation](https://partners-intl.aliyun.com/help?spm=a2c63.p38356.a1.1.d4b659d85jLo5a_){:target="_blank"}  site really useful, which should get you the information you require.
 
 ![search](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-4.PNG)
 
