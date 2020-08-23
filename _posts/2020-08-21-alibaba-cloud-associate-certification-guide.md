@@ -6,7 +6,7 @@ subtitle: Alibaba Cloud Associate Certification Study Guide
 header-img: "img/headers/certification-aca-cloud-computing.jpg"
 header-mask: 0.5
 tags: 
-- Alibaba
+- Alibaba Cloud
 - Certification
 ---
 
