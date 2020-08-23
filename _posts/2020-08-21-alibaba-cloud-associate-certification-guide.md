@@ -3,7 +3,7 @@ layout: post
 title:  Alibaba Cloud Associate Certification Study Guide
 date:   2020-08-22 00:16:12 +0530
 subtitle: Alibaba Cloud Associate Certification Study Guide
-header-img: "img/headers/certification.jpg"
+header-img: "img/headers/certification-aca-cloud-computing.jpg"
 header-mask: 0.5
 tags: 
 - Alibaba
@@ -59,7 +59,7 @@ Alibaba Cloud provides detailed documentation for all of their services. The off
 
 For each service, I reckon reading the 'Quick Start' section (marked in red) will be sufficient for the exam. However, it will be best to read up the 'Product Information' (marked in green) for each for further understanding. As this is an Associate-level certification, it does not go into really detailed stuff, however, it will only be for our own good to be well-prepared and actually know a product which is the main reason why we are studying anyways.
 
-![syllabus](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-3.png)
+![docs](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-3.png)
 
 Below are the direct links to each of the services covered:
 
@@ -80,13 +80,15 @@ Unlike other cloud providers, there are no practice questions available for thei
 
 Along with video tutorials and reading documentation, being able to do hands-on is ultimately what actually matters!
 
-Alibaba currently also offers free trial credits that can be used, if cost is of a concern.
-[Alibaba Free Trial](https://www.alibabacloud.com/campaign/free-trial)
+Alibaba currently also offers [free trial](https://www.alibabacloud.com/campaign/free-trial) credits that can be used, if cost is of a concern.
 
 #### Forums
 
-For questions and help from the community, I reckon the official forum will be the best way as it is comparatively more active than the usual places like Stack Overflow.
-[Alibaba Forum](https://www.alibabacloud.com/forum)
+For questions and help from the community, I reckon the (official forum)[(https://www.alibabacloud.com/forum) will be the best way as it is comparatively more active than the usual places like Stack Overflow.
+
+Also, I find the **search feature** within the documentation site really useful, which should get you the information you require.
+
+![search](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-4.PNG)
 
 ### Step 3 - Take the Exam
 
