@@ -12,6 +12,8 @@ tags:
 
 ## Alibaba Cloud ACA Cloud Computing Associate Study Guide
 
+![badge](/img/posts/2020-08-21-alibaba-cloud-associate-certification-guide/aca-5.PNG)
+
 In my opinion, the ACA Cloud Computing Associate certification will be the one of the best ways to get an **introduction into Alibaba Cloud**. It gives you an overall view of the most-used services within Alibaba Cloud and touches on basic cloud computing concepts. It should be the **first certificate** to attempt before proceeding to other certificates.
 
 Alibaba Cloud Certificate comes in a number of flavours, namely:
@@ -69,6 +71,8 @@ Below are the direct links to each of the services covered:
 - [Relational Database - RDS](https://partners-intl.aliyun.com/help/product/26090.htm?spm=a2c63.m28257.a1.18.13825922r11oJz)
 - [Auto Scaling](https://partners-intl.aliyun.com/help/product/25855.htm?spm=a2c63.m28257.a1.7.13825922r11oJz)
 - [Cloud Monitor](https://partners-intl.aliyun.com/help/product/28572.htm?spm=a2c63.m28257.a1.67.13825922r11oJz)
+- [Security Center](https://partners-intl.aliyun.com/help/product/28498.htm?spm=a2c63.m28257.a1.50.13825922eQclxh)
+- [Anti-DDoS](https://partners-intl.aliyun.com/help/product/28396.htm?spm=a2c63.m28257.a1.47.13825922eQclxh)
 
 #### Practice Questions
 
@@ -96,6 +100,6 @@ Currently at time of writing, I took the online version of the exam, which can b
 As it is a closed-book exam, there will be proctoring, where an examiner will be monitoring through Zoom which will be required to install on a separate device that will be monitoring your exam.
 Hence, 1 device (For online proctoring) and 1 laptop (For your exam).
 
-Exam comprises of **50 questions** and must be completed within **90 minutes**.
+Exam comprises of **50 questions** and must be completed within **90 minutes**. Passing score is **60%**.
 
 Good luck!
