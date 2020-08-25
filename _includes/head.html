@@ -26,12 +26,11 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% endcase %}
-	{% if page.image %}
-    <meta property="og:image" content="{{ page.image }}">
-	{% else %}
-	<meta property="og:image" content="{{ page.image }}">
+	{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+	{% endif %}	
 	<!--<meta property="og:image" content="{{ site.url }}{{ site.sidebar-avatar }}">-->
-	{% endif %}
+	
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.SEOTitle }}">
     

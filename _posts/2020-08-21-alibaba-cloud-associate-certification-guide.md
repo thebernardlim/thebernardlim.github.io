@@ -4,7 +4,6 @@ title:  Alibaba ACA Cloud Computing Certification Study Guide
 date:   2020-08-22 00:16:12 +0530
 subtitle: My experience on how to pass the Alibaba ACA Cloud Computing Certification exam
 header-img: "img/headers/certification-aca-cloud-computing.jpg"
-image: "img/headers/certification-aca-cloud-computing.jpg"
 header-mask: 0.5
 tags: 
 - Alibaba Cloud
