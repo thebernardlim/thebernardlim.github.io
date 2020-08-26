@@ -17,9 +17,6 @@ For [Challenge #5 of the '25 days of Serverless' challenge](https://github.com/m
 
 For this solution, we can use **Azure Functions** which will call **Azure Cognitive Services** to do sentiment analysis!
 
-### Azure Cognitive Services
-
-
 1. Create an **Azure Cognitive Services - Text Analytics** resource. There is the option to choose a ****'Free' Pricing Tier** if this is the first Text Analytics resource in the region.  
     ![Image](/img/posts/2020-08-26-25daysserverless2019-challenge-5/create-text-analytics-service.PNG)
 
@@ -45,10 +42,19 @@ For this solution, we can use **Azure Functions** which will call **Azure Cognit
 7. With the above, we can come up with a simple **Azure Function** where Santa can call which:
    - Calls https://aka.ms/holiday-wishes to get list of sentences
    - For each sentence:
-     - Call Language Detection API - To detect language
-     - Call Sentiment API - Where Parameters are the language detected + sentence
-     - Retrieve the 'Sentiment' value from Sentiment API response
-     - Store the value in a simple Dictionary where each key belongs to each child, where value is a Integer score.
-     - Do a simple calculation logic, where if Positive sentiment - Add 1, Negative sentiment - Minus 1, Neutral - Do Nothing
+      1. Call Language Detection API - To detect language
+      2. Call Sentiment API - Where Parameters are the language detected + sentence
+      3. Retrieve the 'Sentiment' value from Sentiment API response
+      4. Store the value in a simple Dictionary where each key belongs to each child, where value is a Integer score.
+      5. Do a simple calculation logic, where if:
+         1. Positive sentiment - Add 1
+         2. Negative sentiment - Minus 1
+         3. Neutral - Do Nothing
+      6. Generate and return response
 
-Though this was a fun project to explore world of Azure AI Services with!
+8. Also to note, there were a couple of hiccups I faced along the way:
+   1. There are 2 versions of Text Analytics at time of writing: v2.1 and v3.0. I used v3.0 which seemed easier to implement.
+   2. However v3.0 has some limitations such as no support of Swedish language which was one of the languages present in the provided sentences.
+
+Thought this was a fun project to explore world of Azure AI Services with. Do try it out!\
+Also realized I missed out on doing Day 4. Will do Day 4 next.
