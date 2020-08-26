@@ -24,7 +24,7 @@ For this solution, we can use **Azure Functions** which will call **Azure Cognit
 2. Once resource is created, click on **'Keys and Endpoint'** tab. Copy one of the 2 keys provided. 
     ![Image](/img/posts/2020-08-26-25daysserverless2019-challenge-5/keys.PNG)
 
-3. Access this [link](https://eastasia.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-0-Preview-1/) to try out calling the **Text Analytics 'Sentiment API'**. Click on the  **region** where your Text Analytics resource is created.
+3. Access this ![link](https://eastasia.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v3-0-Preview-1/) to try out calling the **Text Analytics 'Sentiment API'**. Click on the  **region** where your Text Analytics resource is created.
     ![Image](/img/posts/2020-08-26-25daysserverless2019-challenge-5/text-analytics-api-main.png)
 
 4. On click, paste the copied key from Step 2 to the **Ocp-Apim-Subscription-Key field**. Click on **'Send'** to make request.
@@ -41,7 +41,7 @@ For this solution, we can use **Azure Functions** which will call **Azure Cognit
    ![Image](/img/posts/2020-08-26-25daysserverless2019-challenge-5/santa-api-response.PNG)
 
 7. With the above, we can come up with a simple **Azure Function** where Santa can call which:
-   - Calls https://aka.ms/holiday-wishes to get list of sentences
+   - Calls ![https://aka.ms/holiday-wishes](https://aka.ms/holiday-wishes) to get list of sentences
    - For each sentence:
       1. Call Language Detection API - To detect language
       2. Call Sentiment API - Where Parameters are the language detected + sentence
@@ -53,7 +53,7 @@ For this solution, we can use **Azure Functions** which will call **Azure Cognit
          3. Neutral - Do Nothing
       6. Generate and return response
 
-8. Here is the [Azure Function solution](https://github.com/thebernardlim/25-days-of-serverless/tree/master/challenge-5/SentimentAnalysisFunction/Day5Function) I created in C#.
+8. Here is the ![Azure Function solution](https://github.com/thebernardlim/25-days-of-serverless/tree/master/challenge-5/SentimentAnalysisFunction/Day5Function) I created in C#.
 
 9. Also to note, there were a couple of hiccups I faced along the way:
    1. There are 2 versions of Text Analytics at time of writing: v2.1 and v3.0. I used v3.0 which seemed easier to implement.
