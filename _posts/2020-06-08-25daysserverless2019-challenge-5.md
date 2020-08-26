@@ -52,5 +52,9 @@ For this solution, we can use **Azure Functions** which will call **Azure Cognit
          3. Neutral - Do Nothing
       6. Generate and return response
 
+8. Also to note, there were a couple of hiccups I faced along the way:
+   1. There are 2 versions of Text Analytics at time of writing: v2.1 and v3.0. I used v3.0 which seemed easier to implement.
+   2. However v3.0 has some limitations such as no support of Swedish language which was one of the languages present in the provided sentences.
+
 Thought this was a fun project to explore world of Azure AI Services with. Do try it out!\
 Also realized I missed out on doing Day 4. Will do Day 4 next.
