@@ -14,7 +14,7 @@ To fix this, the subscription needs to be changed to the **'Pay-As-You-Go'** pla
 
 # Steps
 
-1. Access the [Pay-As-You-Go](https://azure.microsoft.com/en-in/offers/ms-azr-0003p/) page. Click on **'Purchase Now'** button
+1. Access the [Pay-As-You-Go](https://azure.microsoft.com/en-in/offers/ms-azr-0003p/){:target="\_blank"} page. Click on **'Purchase Now'** button
    ![Image](/img/posts/2021-03-27-azure-subscription-reactivate-button-greyed-out/pay_as_you_go.PNG)
 
 2. Click on **Upgrade your account to pay-as-you-go pricing'**
@@ -23,5 +23,7 @@ To fix this, the subscription needs to be changed to the **'Pay-As-You-Go'** pla
 3. Choose your preferred plan. As per screenshot, **Basic** plan has been chosen.
    ![Image](/img/posts/2021-03-27-azure-subscription-reactivate-button-greyed-out/pay_as_you_go_3.PNG)
 
-4. That is all. After a while a notification popup will appear saying that Subscription has been upgraded.
+4. That is all there is. After a while a notification popup will appear saying that Subscription has been upgraded.
    ![Image](/img/posts/2021-03-27-azure-subscription-reactivate-button-greyed-out/subscription_upgraded.PNG)
+
+One thing to note, it might take awhile for the services to fully kick in. An example is if you try creating Budgets right after switching plans, it might not work right away.
