@@ -5,7 +5,7 @@ date: 2021-03-27 00:02:12 +0530
 subtitle: Enable Azure Subscription after deactivation
 header-mask: 0.5
 tags:
-  - Azure
+  - Azure Subscription
 ---
 
 On completion of the first 30 days of Microsoft Azure's free trial, your **'Free Trial'** Azure Subscription will be disabled.
