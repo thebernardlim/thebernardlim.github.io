@@ -5,7 +5,6 @@ author: Bernard Lim
 date: 2021-08-13 00:01:12 +0830
 header-style: text
 subtitle: How to temporarily disable App Service Plans to save costs
-header-img: "img/headers/app-service-plan.png"
 header-mask: 0.2
 tags: 
   - Azure App Service Plans
