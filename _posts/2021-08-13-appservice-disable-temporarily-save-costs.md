@@ -21,8 +21,8 @@ One popular service will be the **App Services Plans** and **App Services**.
 
 ### Key Distinction
 
-- App Service Plans statuses **\*determines if it is **chargeable**\***
-- App Services statuses **\*DO NOT** have an impact on chargeability\*, i.e. If an app is stopped, it might still be charged!
+- App Service Plans types & statuses **determines if it is chargeable**
+- App Services statuses **DO NOT have an impact on chargeability**, i.e. If an app is stopped, it might still be charged!
 
 **Hourly charges of the "Basic" App Service Plan:**
 ![App Services Pricing](/img/posts/2021-08-13-appservice-disable-temporarily-save-costs/appservice_pricing_1.png)
