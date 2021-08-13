@@ -5,7 +5,7 @@ author: Bernard Lim
 date: 2021-08-13 00:01:12 +0830
 subtitle: How to temporarily disable App Service Plans to save costs
 header-mask: 0.2
-tags: 
+tags:
   - Azure App Service Plans
   - App Services
 ---
@@ -17,12 +17,12 @@ The ease of deploying apps into the cloud is as easy as a few clicks. This could
 One popular service will be the **App Services Plans** and **App Services**.
 
 - App Service Plans comes in various plans, some are **free**, some are **chargeable**.
-- In an App Service Plan, you can host apps, i.e. App Services**App Services**.
+- In an App Service Plan, you can host apps, i.e. **App Services**.
 
 ### Key Distinction
 
-- App Service Plans types & statuses **determines if it is chargeable**
-- App Services statuses **DO NOT have an impact on chargeability**, i.e. If an app is stopped, it might still be charged!
+- App Service Plans _types_ & _statuses_ **determines if it is chargeable**
+- App Services _statuses_ **DO NOT have an impact on chargeability**, i.e. If an app is stopped, it will still be charged (if your plan is chargeable)!
 
 **Hourly charges of the "Basic" App Service Plan:**
 ![App Services Pricing](/img/posts/2021-08-13-appservice-disable-temporarily-save-costs/appservice_pricing_1.png)
@@ -48,5 +48,7 @@ In the **App Service Plan** tab, Use the "**Scale Up**" option to **scale down**
 ![App Services Scale Down](/img/posts/2021-08-13-appservice-disable-temporarily-save-costs/appservice_scale_down.png)
 
 When the apps are ready to be used once more, scale back up to your preferred plan.
+
+No deletion required. Simple, effective and saves unnecessary costs!
 
 ---
