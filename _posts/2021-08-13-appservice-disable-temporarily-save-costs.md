@@ -7,7 +7,7 @@ header-style: text
 subtitle: How to temporarily disable App Service Plans to save costs
 header-img: "img/headers/app-service-plan.jpg"
 header-mask: 0.2
-tags:
+tags: 
   - Azure App Service Plans
   - App Services
 ---
