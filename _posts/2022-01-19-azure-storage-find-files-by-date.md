@@ -53,7 +53,7 @@ This tool does not provide any date filtering functions, nor ability to calculat
 
 The next obvious choices were via code. With Powershell & CLI, I faced multiple timeout errors as there were just too many files to parse.
 
-### Azure SDK
+### Azure SDK (Solution that Works!)
 
 The only solution that I found works was via the Azure SDK. I used C# for this purpose.
 It seemed to work, however it is very slow (no timeouts however!) and might not be the most efficient.
