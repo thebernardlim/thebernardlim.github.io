@@ -5,7 +5,6 @@ author: Bernard Lim
 date: 2022-01-19 00:01:12 +0530
 header-style: text
 subtitle: Ways to query / find files by date in Azure File Storage
-header-img: "img/headers/storage-account.png"
 header-mask: 0.2
 tags:
   - Azure
@@ -20,9 +19,12 @@ Lately, I came across a scenario where I was required to find out the following 
 - Number of files (within each folder) that were older than a year. Exclude folder if at least 1 file within folder is beyond a year.
 - Total size of those files
 
-On top of this, this File Share account has a LOT of folders & files, around 100,000 files in various sizes and some folders have sub-folders.
+On top of this, this File Share account has a LOT of folders & files (Probably > 100,000 files) in various sizes and some folders have sub-folders.
 
-Also to note, the "Last Modified Date" of a directory does not equate to the lastest "Last Modified Date" of the files within the directory. Say for example, if I have 2 files, where their Date Modified is 20th March 2020 and 22nd March 2020, my folder "Last Modified Date" can be earlier than 22nd March 2020!
+> Another important note: \
+
+     **Directory's "Last Modified Date"** does not equate to the **lastest "Last Modified Date" of the files within the directory**. \
+     Say for example, if I have 2 files, where their Date Modified is 20th March 2020 and 22nd March 2020, it does not mean the directory's "Last Modified Date" is 22nd March 2020. It can be earlier!
 
 As we know, Azure provides a number of ways to interact with Azure Storage. However, what is the best option in the scenario above?
 
@@ -32,9 +34,9 @@ As we know, Azure provides a number of ways to interact with Azure Storage. Howe
 
 The UI is simple and straight forward to use. We can easily sort files by "Last Modified" and highlight the files / folders that is within date range. Click on "Selection Statistics" and it will show the file count and total size.
 
-This method only works for small number of files though, as there is no way to filter out files by dates. Besides they have a maximum of 100 cached items per page. For my case where I had more than 100k files, this is not a feasible approach.
+This method only works for **small number of files** though, as there is **no way to filter out files by dates**. Besides they have a m**aximum of 100 cached items per page**. For my case where I had more than 100k files, this is not a feasible approach.
 
-\*\*Note: Screenshot shown is just an example using Blob storage and not File Share. But both are similar to illustrate this concept.
+\*\*_Note: Screenshot shown is just an example using Blob storage and not File Share. But both are similar to illustrate this concept._
 
 ![App Services Stop](/img/posts/2022-01-19-azure-storage-find-files-by-date/storage-explorer-1.PNG)
 
@@ -44,7 +46,7 @@ Storage Browser is the 'Storage Explorer' within the Azure portal. It is current
 
 This tool does not provide any date filtering functions, nor ability to calculate statistics for multiple files.
 
-\*\*Note: Screenshot shown is just an example using Blob storage and not File Share. But both are similar to illustrate this concept.
+\*\*_Note: Screenshot shown is just an example using Blob storage and not File Share. But both are similar to illustrate this concept._
 
 ![App Services Stop](/img/posts/2022-01-19-azure-storage-find-files-by-date/storage-browser-1.PNG)
 
