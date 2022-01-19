@@ -3,7 +3,6 @@ layout: post
 title: Azure File Storage - Find Files By Date
 author: Bernard Lim
 date: 2022-01-19 00:01:12 +0530
-header-style: text
 subtitle: Ways to query / find files by date in Azure File Storage
 header-mask: 0.2
 tags:
