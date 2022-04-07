@@ -46,7 +46,7 @@ As a professional, I believe it is important for us to make the right decisions 
     - Server level (OS, Network, Runtime)
     - Web Server level (IIS, Kestrel)
 
-- More control in VMs also means more:
+- More control in VMs also means higher chances of issues happening from a server / setup level. Some examples I had recently:
   - App unable to load after deployment due to some system issues. In our test VM, everything was ok. But in PROD, it just failed no matter what we tried. We were pretty confident both VMs were very similar setup, but guess that wasn't the case.
   - In another scenario, we faced this [issue](https://thebernardlim.com/dotnet-core-http500/){:target="\_blank"}, where a .NET 3.1 app could not load albeit following all the installation instructions diligently to install the .NET Runtime.
 
@@ -54,7 +54,7 @@ As a professional, I believe it is important for us to make the right decisions 
 
 - What is the purpose of the app? Is it just a web application or a full-fledged SQL Server?
 
-- The compute power of Azure App Services is limited, as there is only A Series or Dv2 Series VMs to choose from (at time of writing)
+- The compute power of Azure App Services is **limited**, as there is only A Series or Dv2 Series VMs to choose from (at time of writing)
   For Azure VMs, you have many choices such as the B Series (Burstable workloads), F Series (Compute Optimized), E & G Series (Memory Optimized) and many more.
 
 - This means that there is no way for an App Service to run more resource-intensive apps.
@@ -64,13 +64,12 @@ As a professional, I believe it is important for us to make the right decisions 
 - In VMs, horizontal scaling is achieved via Scale Sets
   - Require separate load balancer
   - If existing VM does not belong to Scale Set, might need a bit of configuration work to enable.
-- Azure App Service provides an integrated load balancer and can easily increase instances (Just by slider!)
+- Azure App Service provides an **integrated load balancer** and can easily increase instances (Just by slider!)
 
 ## Control & Familiarity
 
-- One benefit of VM is full control of VM. You can group apps / resources together.
-- Take advantage of local communication within VM. Example running Windows Services along with Web Apps in same machines.
-- Easier to maintain as apps/services are in a single place.
+- One benefit of VM is having full control of the machine.
+- Ability to group related apps / resources together in a machine. For example, running Windows Services along with Web Apps. Can be easier to maintain as apps/services are in a single place. Of course this might not be the best option too as the VM goes down, all your apps/services will go down too!
 - Another benefit of VMs is ability to use local filesystem as per normal. Easy to navigate around as everyone is familiar. App Service is a abit more difficult as its done via the browser. There are also limitations in how you use the filesystem if I am not wrong.
 
 ## Costs
@@ -83,8 +82,8 @@ As a professional, I believe it is important for us to make the right decisions 
   - App Service - P1v3 plan is a DsV2 Azure VM 2 Core, 8 GB RAM, 250 GB Storage. Costs **$275.21 USD** per month.
   - Azure VMs - DsV5 Series Azure VM 2 Cores, 8 GB RAM, 256 GB Standard SSD Storage. Costs **$182.92 USD** per month. <br/>
 
-- VMs are **only charged on disk costs** if stopped.
-- Azure App Service will c**ontinue charging even though apps are unused or even if stopped**. <br/>
+- VMs are **only charged on disk costs** when stopped.
+- Azure App Service will **continue charging even though apps are unused or when stopped**. <br/>
   There are ways to temporarily stop Azure App Services from charging, however it is not as straightforward. <br/>
   One way is to move to the Free Tier, however the Free Tier is only limited to 1 GB in storage space and no SSL capabiliites.
   It is highly likely, one would have more than 1 GB worth of data hence this might not be feasible.
@@ -95,7 +94,7 @@ As a professional, I believe it is important for us to make the right decisions 
 
 - Although App Services might cost more on paper, depending on your team structure, there could already be costs saving made as there is minimal infrastructure involvement.
 
-- With VMs, we can also say
+- With VMs, one can also say
   > "With extra power, comes extra responsibilities"
 
 ## Conclusion
