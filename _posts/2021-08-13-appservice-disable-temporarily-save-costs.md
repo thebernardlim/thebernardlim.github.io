@@ -6,8 +6,7 @@ date: 2021-08-13 00:01:12 +0830
 subtitle: How to temporarily disable App Service Plans to save costs
 header-mask: 0.2
 tags:
-  - Azure App Service Plans
-  - App Services
+  - Azure App Service
 ---
 
 # Overview
