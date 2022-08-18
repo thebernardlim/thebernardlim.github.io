@@ -12,9 +12,9 @@ tags:
 ## Background
 
 Azure Blobs can easily be deleted via **Azure Storage Explorer**.
-However for containers which are massive, this can be a challenge.
+However for containers which are massive, this can be a challenge due to the pagination limits that the tool brings.
 
-Deleting of old files in large containers however, can easily be done via **Lifecycle Management** .
+Deleting old files in large containers however, can easily be done via **Lifecycle Management** .
 
 However there is a **caveat** that I recently was faced with.
 **Lifecycle Management** only [works](https://docs.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview) with:
@@ -48,6 +48,6 @@ $blobs = Get-AzStorageBlob -Container $containerName -Context $ctx | Where-Objec
 ```
 
 Do note the above script can be used for any blob types.
-The above script can be hooked as part of a **SQL Job** as part of the **SQL Maintenance Plan** after backing up, or via any scheduler options such as Azure Functions with timers etc.
+The above script can be hooked as part of a **SQL Job** as part of the **SQL Maintenance Plan** after backing up, or via any scheduler options such as Azure Functions with timers, Azure Automation etc.
 
 Hope the above is useful as a starting point.
