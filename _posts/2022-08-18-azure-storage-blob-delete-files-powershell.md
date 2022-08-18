@@ -3,7 +3,7 @@ layout: post
 title: Azure Blob - Delete blobs via Powershell
 author: Bernard Lim
 date: 2022-08-18 00:12:30 +0530
-subtitle: How to delete old Azure Page Blob files in the absence of Lifecycle Management
+subtitle: How to delete old Azure Page Blob files
 header-mask: 0.2
 tags:
   - Azure Blob Storage
