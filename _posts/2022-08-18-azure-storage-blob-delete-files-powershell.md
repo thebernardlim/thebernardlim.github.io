@@ -7,6 +7,7 @@ subtitle: How to delete old Azure Page Blob files
 header-mask: 0.2
 tags:
   - Azure Blob Storage
+  - PowerShell
 ---
 
 ## Background
