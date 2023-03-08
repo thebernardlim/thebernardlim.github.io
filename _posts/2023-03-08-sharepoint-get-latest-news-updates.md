@@ -2,7 +2,7 @@
 layout: post
 title: SharePoint - How to get the latest updates, news & announcements regarding SharePoint Online?
 author: Bernard Lim
-date: 2022-08-31 00:12:30 +0530
+date: 2023-03-08 00:12:30 +0530
 subtitle:
 header-mask: 0.2
 tags:
@@ -23,7 +23,7 @@ Microsoft has **Microsoft 365 Roadmap** page. Here you can filter the **Product*
 URL:
 https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=
 
-![M365 Roadmap](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_1.png)
+![M365 Roadmap](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_1.PNG)
 
 ---
 
@@ -33,9 +33,9 @@ Only applicable for SharePoint Administrators, the latest release updates can be
 
 Note: SharePoint Admin Center can be accessed via [Office Admin](https://admin.microsoft.com/) or directly via _https://{yoursitename}-admin.sharepoint.com/_
 
-![Message Center](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_2.png)
+![Message Center](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_2.PNG)
 
-![Message Center 2](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_3.png)
+![Message Center 2](/img/posts/2023-03-08-sharepoint-get-latest-news-updates/365_3.PNG)
 
 ---
 
