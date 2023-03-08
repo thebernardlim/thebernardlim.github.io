@@ -1,8 +1,8 @@
 # Site settings
 title: thebernardlim
-SEOTitle: Bernard Lim | Azure | .NET
+SEOTitle: Bernard Lim | Azure | .NET | SharePoint | M365
 header-img: img/home-bg-2.jpg
-keyword: "Bernard Lim, Azure, Hong Kong, Cloud, .NET, Azure"
+keyword: "Bernard Lim, Azure, Hong Kong, Cloud, .NET, Azure, M365, SharePoint"
 url: "http://thebernardlim.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -87,6 +87,7 @@ page-mathjax: false
 # Friends
 friends: [
     {
+      ,
       #     title: "Su",
       #     href: "http://su.gallery/"
     },
