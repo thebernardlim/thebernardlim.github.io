@@ -6,8 +6,7 @@ date: 2024-03-24 00:12:30 +0530
 subtitle:
 header-mask: 0.2
 tags:
-  - Azure
-  - AI
+  - Azure OpenAI
 ---
 
 Here is a simple guide on how to generate images using Azure OpenAI DALL-E via Postman.
