@@ -54,11 +54,11 @@ Before starting off, I am assuming you will already have a Azure OpenAI subscrip
 2. On response, you might get a `"status": "notRunning"` as response. This is normal.
    ![DALL-E-6](/img/posts/2024-03-24-azure-openai-dalle-postman/oai-dalle-6.png)
 
-3. Open the Response Headers tab and copy the URL from **operation-location** header
+3. Open the _Response Headers_ tab and copy the URL from **operation-location** header
 
    ![DALL-E-4](/img/posts/2024-03-24-azure-openai-dalle-postman/oai-dalle-4.png)
 
-4. Make another request, this time a **GET** (instead of a **POST**) request with the URL copied from Step 2.
+4. Make another request, this time a **GET** (instead of a **POST**) request with the URL copied from Step 3.
 5. Response returned should return the generated image URL
    ![DALL-E-5](/img/posts/2024-03-24-azure-openai-dalle-postman/oai-dalle-5.png)
 
